@@ -15,6 +15,8 @@ img {
 button {
   width: 100px;
   height: 40px;
-  margin: 10px;
-  /* margin: 10px auto; */
+  margin: 20px 30%;
+  background-color: #61dafb;
+  font-weight: bold;
+  color: red;
 }
