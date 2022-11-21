@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import "./components/react.css";
-import ButtonComonent from "./components/ButtonComponent";
+import ButtonComponent from "./components/ButtonComponent";
 import ImageComponent from "./components/ImageComponent";
 
 function App() {
@@ -16,14 +16,14 @@ function App() {
               image="https://img.xcitefun.net/users/2014/07/361484,xcitefun-nature-color-9.jpg"
               description="nature"
             />
-            <ButtonComonent label="Calm Water" />
+            <ButtonComponent label="Calm Water" />
           </div>
           <div class="eagle image">
             <ImageComponent
               image="https://th.bing.com/th/id/OIP.iI9difILTiHvJ8Vv7W7G6gHaE6?pid=ImgDet&rs=1"
               alt="Eagle"
             />
-            <ButtonComonent label="Bold Eagle" />
+            <ButtonComponent label="Bold Eagle" />
           </div>
         </div>
         <a
