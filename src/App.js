@@ -11,14 +11,14 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>React</h1>
         <div id="bigbox">
-          <div class="nature image">
+          <div className="nature image">
             <ImageComponent
               image="https://img.xcitefun.net/users/2014/07/361484,xcitefun-nature-color-9.jpg"
               description="nature"
             />
             <ButtonComponent label="Calm Water" />
           </div>
-          <div class="eagle image">
+          <div className="eagle image">
             <ImageComponent
               image="https://th.bing.com/th/id/OIP.iI9difILTiHvJ8Vv7W7G6gHaE6?pid=ImgDet&rs=1"
               alt="Eagle"
